@@ -51,15 +51,16 @@ function BookOverview({
           <p className="font-bebas-neue text-xl text-dark-100">Emprestar</p>
         </Button>
       </div>
-      <div className="retative flex flex-1 justify-center">
+
+      <div className="relative flex flex-1 justify-center">
         <div className="relative">
           <BookCover
             variant="wide"
             className="z-10"
             coverColor={color}
             coverImage={cover}
-            
           />
+          
           <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden">
             <BookCover variant="wide" coverColor={color} coverImage={cover} />
           </div>
