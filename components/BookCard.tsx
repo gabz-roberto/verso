@@ -27,7 +27,7 @@ export const BookCard = ({
         </div>
         {isLoanedBook && (
           <div className="mt-3 w-full">
-              <div className="book-loaned">
+            <div className="book-loaned">
               <Image
                 className="object-contain"
                 src={"/icons/calendar.svg"}
@@ -37,7 +37,9 @@ export const BookCard = ({
               />
               <p className="text-light-100">11 dias restantes</p>
             </div>
-            <Button className="book-btn">Baixar recibo</Button>
+            <Button className="bg-dark-600 mt-3 min-h-14 w-full font-bebas-neue text-base text-primary" >
+              Baixar recibo
+            </Button>
           </div>
         )}
       </Link>

@@ -71,7 +71,7 @@ export const sampleBooks = [
     video: "/sample-video.mp4",
     summary:
       "Obra-prima de Machado de Assis que retrata com ironia e profundidade psicológica a relação de Bentinho e Capitu.",
-    isLoanedBook: true,
+    
   },
   {
     id: 2,
